@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if(event.key === 'h') {
+                var dogAnswer = confirm("Do you like dogs?");
+                console.log(dogAnswer)
+            }
+            if(event.key === 'k') {
+                if(dogAnswer === true) {
+                    alert("Hello")
+                } else {
+                    alert("No thanks")
+                }
+            }
+    
+        })
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-style: italic;
+    line-height: 30px;
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.poppins:hover {
+    font-size: 20px;
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.roboto:hover {
+    font-size: 8px;
+}
+
+.playfair {
+    font-family: 'Playfair Display';
+}
+
+.playfair:hover {
+    font-size: 40px;
+}
+
+.pacifico {
+    font-family: 'Pacifico';
+}
+
+.pacifico:hover {
+    font-size: 30px;
+}

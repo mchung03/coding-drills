@@ -1,0 +1,96 @@
+.box {
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+  }
+  
+  .inside-box {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+  
+  #top1, #bottom1 {
+    background-color: red;
+  }
+  
+  #top2, #bottom2 {
+    background-color: green;
+  }
+  
+  #top3, #bottom3 {
+    background-color: blue;
+  }
+  
+  button {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  /* Your code goes below here! */
+  
+  #bottom1:hover {
+    height: 6rem;
+  }
+
+  #bottom2:active {
+    margin-right: 8rem;
+  }
+
+  #bottom3:hover {
+    background-color: yellow;
+  }
+
+  #bottom3:active {
+    float: right;
+  }
+
+  .btn-even:hover {
+    height: 150px;
+    width: 225px;
+  }
+
+  .btn-even:active {
+    height: 50px;
+    width: 100px;
+  }
+
+  .btn-odd:hover {
+    color: white;
+    background-color: black;
+    border: 8px solid aqua;
+    height: 50px;
+    width: 100px;
+  }
+
+  .btn-odd:active {
+    color: grey;
+    background-color: beige;
+    border: 10px dashed green;
+  }
+
+  #top1 .inside-box:hover {
+    background-color: orange;
+    height: 40px;
+    width: 80px;
+  }
+
+  #top2 .inside-box:hover {
+    background-color: blue;
+    margin: 10px;
+  }
+
+  #top3 .inside-box:active {
+    background-color: yellow;
+    margin: 30px;
+    float: right;
+  }
